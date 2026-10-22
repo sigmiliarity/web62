@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Ruffle Player</title>
+    <title>Flash</title>
     <style>
         body, html {
             margin: 0;
@@ -36,8 +36,7 @@
         <div id="error-message">Loading Ruffle...</div>
     </div>
 
-    <!-- Load the official Ruffle self-hosted JS API -->
-    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <script src="r/ruffle.js"></script>
     <script>
         window.addEventListener("DOMContentLoaded", () => {
             const urlParams = new URLSearchParams(window.location.search);
